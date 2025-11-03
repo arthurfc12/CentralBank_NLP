@@ -1,0 +1,5 @@
+ata da cvm - dia 1 discute economia, dia 2 define nova taxa selic. descobrir nova taxa selic a partir da discussao do dia 1.
+pegar dataset de reviews imdb -> pulverizar dataset para blocos de reviews com questões em comum (ex: review positivo, menciona o diretor, diz que filme eh bom pra crianca). -> pulveriza'c~ao atraves de arvore binaria, onde cada n'o final 'e a combinacao de possibilidades provindas de nos anteriores -> encontrar n'os problematicos, onde modelo nao consegue encontrar padrao -> gerar novos datapoints desse(s) no(s) problematico(s) para aumentar dataset com pontos fracos -> adaptar modelo para conseguir lidar com n'os problematicos -> dataset original 'e otimizado, ate para os n'os problematicos -> criar modelo de adaptacao, onde qualquer dataset pode ser otimizado a partir de arvore binaria, encontrar node ruim e treinar dataset com muitos datapoints de node ruim
+
+
+BERTopic -> analisar constituicao brasileira como benchmark -> pegar dados CVM -> pdf to text -> bertopic -> traduz texto com jargão para relatórios compreensiveis em linguagem comum
